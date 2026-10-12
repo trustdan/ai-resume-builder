@@ -101,25 +101,25 @@ Every example uses the same **fictional** candidate and career. The employers, c
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="examples/previews/chronological.pdf"><img src="examples/previews/chronological.png" alt="Chronological format"></a><br><b>Chronological</b></td>
-    <td align="center" width="33%"><a href="examples/previews/hybrid.pdf"><img src="examples/previews/hybrid.png" alt="Hybrid format"></a><br><b>Hybrid</b></td>
-    <td align="center" width="33%"><a href="examples/previews/functional.pdf"><img src="examples/previews/functional.png" alt="Functional format"></a><br><b>Functional</b></td>
+    <td align="center" width="33%"><a href="examples/previews/chronological.png"><img src="examples/previews/chronological.png" alt="Chronological format"></a><br><b>Chronological</b></td>
+    <td align="center" width="33%"><a href="examples/previews/hybrid.png"><img src="examples/previews/hybrid.png" alt="Hybrid format"></a><br><b>Hybrid</b></td>
+    <td align="center" width="33%"><a href="examples/previews/functional.png"><img src="examples/previews/functional.png" alt="Functional format"></a><br><b>Functional</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="examples/previews/employer-light.pdf"><img src="examples/previews/employer-light.png" alt="Employer-light format"></a><br><b>Employer-light</b></td>
-    <td align="center"><a href="examples/previews/employer-light-anonymous.pdf"><img src="examples/previews/employer-light-anonymous.png" alt="Employer-light format with employer names omitted"></a><br><b>Employer names omitted</b></td>
-    <td align="center"><a href="examples/previews/cover-letter.pdf"><img src="examples/previews/cover-letter.png" alt="Matching cover letter"></a><br><b>Cover letter</b></td>
+    <td align="center"><a href="examples/previews/employer-light.png"><img src="examples/previews/employer-light.png" alt="Employer-light format"></a><br><b>Employer-light</b></td>
+    <td align="center"><a href="examples/previews/employer-light-anonymous.png"><img src="examples/previews/employer-light-anonymous.png" alt="Employer-light format with employer names omitted"></a><br><b>Employer names omitted</b></td>
+    <td align="center"><a href="examples/previews/cover-letter.png"><img src="examples/previews/cover-letter.png" alt="Matching cover letter"></a><br><b>Cover letter</b></td>
   </tr>
 </table>
 
 | Format | What changes | Preview |
 | --- | --- | --- |
-| Chronological | Recent jobs lead the experience section | [PDF](examples/previews/chronological.pdf) · [Image](examples/previews/chronological.png) |
-| Hybrid | Selected accomplishments come first, followed by detailed employment history | [PDF](examples/previews/hybrid.pdf) · [Image](examples/previews/hybrid.png) |
-| Functional | Most detail sits under capabilities, and the history is compact | [PDF](examples/previews/functional.pdf) · [Image](examples/previews/functional.png) |
-| Employer-light | Responsibilities lead each job, and employers stay on a secondary line | [PDF](examples/previews/employer-light.pdf) · [Image](examples/previews/employer-light.png) |
-| Employer-light, names omitted | Organization descriptions replace employer names, and the other details remain | [PDF](examples/previews/employer-light-anonymous.pdf) · [Image](examples/previews/employer-light-anonymous.png) |
-| Cover letter | A matching, editable letter using the same facts | [PDF](examples/previews/cover-letter.pdf) · [Image](examples/previews/cover-letter.png) |
+| Chronological | Recent jobs lead the experience section | [PDF](https://github.com/trustdan/ai-resume-builder/raw/main/examples/previews/chronological.pdf) · [Image](examples/previews/chronological.png) |
+| Hybrid | Selected accomplishments come first, followed by detailed employment history | [PDF](https://github.com/trustdan/ai-resume-builder/raw/main/examples/previews/hybrid.pdf) · [Image](examples/previews/hybrid.png) |
+| Functional | Most detail sits under capabilities, and the history is compact | [PDF](https://github.com/trustdan/ai-resume-builder/raw/main/examples/previews/functional.pdf) · [Image](examples/previews/functional.png) |
+| Employer-light | Responsibilities lead each job, and employers stay on a secondary line | [PDF](https://github.com/trustdan/ai-resume-builder/raw/main/examples/previews/employer-light.pdf) · [Image](examples/previews/employer-light.png) |
+| Employer-light, names omitted | Organization descriptions replace employer names, and the other details remain | [PDF](https://github.com/trustdan/ai-resume-builder/raw/main/examples/previews/employer-light-anonymous.pdf) · [Image](examples/previews/employer-light-anonymous.png) |
+| Cover letter | A matching, editable letter using the same facts | [PDF](https://github.com/trustdan/ai-resume-builder/raw/main/examples/previews/cover-letter.pdf) · [Image](examples/previews/cover-letter.png) |
 
 A hybrid resume is a good starting point when transferable skills matter. Omitting employer names is a deliberate option with tradeoffs, and a skills-first resume doesn't require it. [Choose a format](docs/choose-a-format.md).
 
