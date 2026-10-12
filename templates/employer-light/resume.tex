@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\input{../shared/preamble.tex}
+\input{../candidate.tex}
+\input{../shared/layout.tex}
+% CLI: --anonymous sets AnonymousEmployers before this document is loaded.
+\hypersetup{pdftitle={\CandidateName: Resume},pdfauthor={\CandidateName}}
+\begin{document}
+\ResumeHeader
+\ResumeSection{Summary}
+\CareerSummary
+\ResumeSection{Skills}
+\Capabilities
+\ResumeSection{Relevant experience}
+\ScopeJob{\RoleOneScope}{\RoleOneTitle}{\RoleOneDates}{\RoleOneEmployer}{\RoleOneDescriptor}
+\begin{itemize}
+  \item \DeliveryAchievement
+  \item \WorkflowAchievement
+  \item \TrainingAchievement
+\end{itemize}
+\ScopeJob{\RoleTwoScope}{\RoleTwoTitle}{\RoleTwoDates}{\RoleTwoEmployer}{\RoleTwoDescriptor}
+\begin{itemize}
+  \item \DataAchievement
+  \item \SupportAchievement
+\end{itemize}
+\EducationBlock
+\ResumeSection{Community experience}
+\CommunityExperience
+\end{document}

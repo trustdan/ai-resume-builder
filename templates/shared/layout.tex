@@ -1,0 +1,36 @@
+% Original, single-column layout. Dates stay in the normal text flow.
+\newcommand{\ResumeHeader}{%
+  {\fontsize{27}{30}\selectfont\textbf{\CandidateName}}\par
+  {\large\CareerFocus}\par
+  \CandidateCity\ | \CandidatePhone\ | \href{mailto:\CandidateEmail}{\CandidateEmail}\par
+  \CandidateWebsite\par
+  {\footnotesize\itshape\DocumentNotice}\par\vspace{3pt}
+}
+\newcommand{\ResumeSection}[1]{%
+  \par\Needspace{5\baselineskip}\vspace{7pt}
+  {\large\textbf{#1}}\par\vspace{1pt}\hrule\vspace{4pt}
+}
+\newcommand{\Capability}[1]{\par\Needspace{4\baselineskip}\textbf{#1}\par}
+\newcommand{\Job}[4]{%
+  \par\Needspace{6\baselineskip}\textbf{#1}\par
+  #2\ | #3\par
+  {\small #4}\par
+}
+\newcommand{\CompactJob}[3]{\par\Needspace{3\baselineskip}\textbf{#1}\par #2\ | #3\par}
+\newcommand{\EmployerLine}[2]{%
+  \ifdefined\AnonymousEmployers
+    {\small Organization: #2 (name omitted)}\par
+  \else
+    {\small Employer: #1}\par
+  \fi
+}
+\newcommand{\ScopeJob}[5]{%
+  \par\Needspace{7\baselineskip}\textbf{#1}\par
+  #2\ | #3\par\EmployerLine{#4}{#5}
+}
+\newcommand{\EducationBlock}{%
+  \ResumeSection{Education and certification}
+  \textbf{\DegreeName}\par
+  \SchoolName\ | \EducationDate\par
+  \CertificationName\ | \CertificationDate\par
+}

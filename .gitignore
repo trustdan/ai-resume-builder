@@ -1,0 +1,19 @@
+# Personal career records and every routinely generated output stay local.
+/personal/
+/build/
+__pycache__/
+*.py[cod]
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.DS_Store
+Thumbs.db
+.env
+.env.*
+# Track only explicitly reviewed fictional previews, never arbitrary PDFs.
+*.pdf
+!/examples/previews/*.pdf

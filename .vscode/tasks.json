@@ -1,0 +1,155 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Resume: Doctor",
+      "type": "process",
+      "command": "python",
+      "osx": {
+        "command": "python3"
+      },
+      "linux": {
+        "command": "python3"
+      },
+      "args": [
+        "resume.py",
+        "doctor"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Resume: Build all demos",
+      "type": "process",
+      "command": "python",
+      "osx": {
+        "command": "python3"
+      },
+      "linux": {
+        "command": "python3"
+      },
+      "args": [
+        "resume.py",
+        "build",
+        "examples/demo-person",
+        "--all"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Resume: Build personal resume",
+      "type": "process",
+      "command": "python",
+      "osx": {
+        "command": "python3"
+      },
+      "linux": {
+        "command": "python3"
+      },
+      "args": [
+        "resume.py",
+        "build",
+        "${input:project}",
+        "--variant",
+        "${input:format}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Resume: Check personal PDF",
+      "type": "process",
+      "command": "python",
+      "osx": {
+        "command": "python3"
+      },
+      "linux": {
+        "command": "python3"
+      },
+      "args": [
+        "resume.py",
+        "qa",
+        "${input:project}",
+        "--variant",
+        "${input:format}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "type": "process",
+      "command": "python",
+      "osx": {
+        "command": "python3"
+      },
+      "linux": {
+        "command": "python3"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "label": "Resume: Build cover letter from JSON",
+      "args": [
+        "resume.py",
+        "letter",
+        "${input:project}"
+      ]
+    },
+    {
+      "type": "process",
+      "command": "python",
+      "osx": {
+        "command": "python3"
+      },
+      "linux": {
+        "command": "python3"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "label": "Resume: Regenerate cover letter (replaces generated TeX)",
+      "args": [
+        "resume.py",
+        "letter",
+        "${input:project}",
+        "--replace"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "project",
+      "type": "promptString",
+      "description": "Personal project path",
+      "default": "personal/my-resume"
+    },
+    {
+      "id": "format",
+      "type": "pickString",
+      "description": "Resume format",
+      "options": [
+        "chronological",
+        "hybrid",
+        "functional",
+        "employer-light",
+        "cover-letter"
+      ],
+      "default": "hybrid"
+    }
+  ]
+}

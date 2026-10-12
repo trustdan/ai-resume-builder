@@ -1,0 +1,112 @@
+[
+  {
+    "label": "Resume: Doctor",
+    "command": "python3",
+    "args": [
+      "resume.py",
+      "doctor"
+    ]
+  },
+  {
+    "label": "Resume: Build all demos",
+    "command": "python3",
+    "args": [
+      "resume.py",
+      "build",
+      "examples/demo-person",
+      "--all"
+    ]
+  },
+  {
+    "label": "Resume: Build personal resume",
+    "command": "python3",
+    "args": [
+      "resume.py",
+      "build",
+      "personal/my-resume"
+    ]
+  },
+  {
+    "label": "Resume: Check personal PDF",
+    "command": "python3",
+    "args": [
+      "resume.py",
+      "qa",
+      "personal/my-resume"
+    ]
+  },
+  {
+    "label": "Resume: Doctor (Windows)",
+    "command": "python",
+    "args": [
+      "resume.py",
+      "doctor"
+    ]
+  },
+  {
+    "label": "Resume: Build all demos (Windows)",
+    "command": "python",
+    "args": [
+      "resume.py",
+      "build",
+      "examples/demo-person",
+      "--all"
+    ]
+  },
+  {
+    "label": "Resume: Build personal resume (Windows)",
+    "command": "python",
+    "args": [
+      "resume.py",
+      "build",
+      "personal/my-resume"
+    ]
+  },
+  {
+    "label": "Resume: Check personal PDF (Windows)",
+    "command": "python",
+    "args": [
+      "resume.py",
+      "qa",
+      "personal/my-resume"
+    ]
+  },
+  {
+    "label": "Resume: Build cover letter from JSON",
+    "command": "python3",
+    "args": [
+      "resume.py",
+      "letter",
+      "personal/my-resume"
+    ]
+  },
+  {
+    "label": "Resume: Regenerate cover letter (replaces generated TeX)",
+    "command": "python3",
+    "args": [
+      "resume.py",
+      "letter",
+      "personal/my-resume",
+      "--replace"
+    ]
+  },
+  {
+    "label": "Resume: Build cover letter from JSON (Windows)",
+    "command": "python",
+    "args": [
+      "resume.py",
+      "letter",
+      "personal/my-resume"
+    ]
+  },
+  {
+    "label": "Resume: Regenerate cover letter (replaces generated TeX) (Windows)",
+    "command": "python",
+    "args": [
+      "resume.py",
+      "letter",
+      "personal/my-resume",
+      "--replace"
+    ]
+  }
+]

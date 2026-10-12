@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\input{../shared/preamble.tex}
+\input{../candidate.tex}
+\input{../shared/layout.tex}
+\hypersetup{pdftitle={\CandidateName: Resume},pdfauthor={\CandidateName}}
+\begin{document}
+\ResumeHeader
+\ResumeSection{Summary}
+\CareerSummary
+\ResumeSection{Skills}
+\Capabilities
+\ResumeSection{Experience}
+\Job{\RoleOneEmployer}{\RoleOneTitle}{\RoleOneDates}{\RoleOneLocation}
+\begin{itemize}
+  \item \DeliveryAchievement
+  \item \WorkflowAchievement
+  \item \TrainingAchievement
+\end{itemize}
+\Job{\RoleTwoEmployer}{\RoleTwoTitle}{\RoleTwoDates}{\RoleTwoLocation}
+\begin{itemize}
+  \item \DataAchievement
+  \item \SupportAchievement
+\end{itemize}
+\EducationBlock
+\ResumeSection{Community experience}
+\CommunityExperience
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\input{../shared/preamble.tex}
+\input{../candidate.tex}
+\input{../shared/layout.tex}
+\hypersetup{pdftitle={\CandidateName: Resume},pdfauthor={\CandidateName}}
+\begin{document}
+\ResumeHeader
+\ResumeSection{Professional profile}
+\CareerSummary
+\ResumeSection{Relevant capabilities}
+\Capability{Project delivery}
+\begin{itemize}
+  \item \DeliveryAchievement\ \textit{(\RoleOneEmployer)}
+  \item \WorkflowAchievement\ \textit{(\RoleOneEmployer)}
+\end{itemize}
+\Capability{Analysis and reporting}
+\begin{itemize}
+  \item \DataAchievement\ \textit{(\RoleTwoEmployer)}
+\end{itemize}
+\Capability{Training and customer support}
+\begin{itemize}
+  \item \TrainingAchievement\ \textit{(\RoleOneEmployer)}
+  \item \SupportAchievement\ \textit{(\RoleTwoEmployer)}
+\end{itemize}
+\ResumeSection{Employment history}
+\CompactJob{\RoleOneEmployer}{\RoleOneTitle}{\RoleOneDates}
+\CompactJob{\RoleTwoEmployer}{\RoleTwoTitle}{\RoleTwoDates}
+\ResumeSection{Skills}
+\Capabilities
+\EducationBlock
+\ResumeSection{Community experience}
+\CommunityExperience
+\end{document}

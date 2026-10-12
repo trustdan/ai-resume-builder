@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\input{shared/preamble.tex}
+\input{candidate.tex}
+\input{shared/layout.tex}
+% Defaults preserve the manual candidate.tex workflow. The JSON builder overrides these.
+\providecommand{\LetterSalutation}{Dear Hiring Team,}
+\providecommand{\LetterBody}{\DeliveryAchievement\ \WorkflowAchievement\par\vspace{6pt}\DataAchievement}
+\providecommand{\LetterSignoff}{Sincerely,}
+\IfFileExists{cover-letter-content.tex}{\input{cover-letter-content.tex}}{}
+\hypersetup{pdftitle={\CandidateName: Cover Letter},pdfauthor={\CandidateName}}
+\begin{document}
+\ResumeHeader
+\vspace{12pt}
+\LetterDate\par
+\TargetCompany\par
+Re: \TargetRole\par\vspace{8pt}
+\LetterSalutation\par\vspace{6pt}
+\LetterOpening\par\vspace{6pt}
+\LetterBody\par\vspace{6pt}
+\LetterClosing\par\vspace{12pt}
+\LetterSignoff\par
+\CandidateName
+\end{document}

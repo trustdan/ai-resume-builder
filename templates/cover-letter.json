@@ -1,0 +1,13 @@
+{
+  "date": "REPLACE ME: date of application",
+  "company": "REPLACE ME: target company",
+  "role": "REPLACE ME: exact role and optional requisition number",
+  "salutation": "Dear Hiring Team,",
+  "opening": "REPLACE ME: why this specific role fits your confirmed experience.",
+  "paragraphs": [
+    "REPLACE ME: one relevant example, your contribution, and its supported outcome.",
+    "REPLACE ME: a second example connected to the employer's stated needs."
+  ],
+  "closing": "REPLACE ME: a concise invitation to discuss the role and any confirmed logistics.",
+  "signoff": "Sincerely,"
+}
