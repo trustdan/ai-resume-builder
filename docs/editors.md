@@ -1,6 +1,6 @@
 # Use your preferred editor
 
-Open the **starter folder containing resume.py** as the workspace, not only a single TeX file. In any terminal, run doctor, build the demo, then create your personal project. The build requires no editor extension or AI subscription.
+Open the **starter folder containing resume.py** as the workspace, not only a single TeX file. In any terminal, run doctor, build the demo, then create your personal project. The build requires no editor extension or AI subscription. New to editors or terminals? Start with [getting started](getting-started.md).
 
 | Editor | Baseline workflow | Optional convenience |
 | --- | --- | --- |
@@ -8,6 +8,7 @@ Open the **starter folder containing resume.py** as the workspace, not only a si
 | Cursor | Open folder; run the same commands in its terminal | Try the included VS Code tasks through the command palette; terminal commands remain the documented baseline |
 | Google Antigravity | Open folder; run the same commands in its terminal | Ask the assistant to read AGENTS.md and use resume.py; no task-file compatibility is assumed |
 | Zed | Open folder; run the same commands in its terminal | Included .zed/tasks.json provides doctor and builds through task: spawn |
+| Claude Code, Codex CLI, Gemini CLI | Start the agent in a terminal opened at the starter folder (standalone or inside any editor above) | Claude Code loads CLAUDE.md and Codex loads AGENTS.md; ask other agents to read AGENTS.md |
 
 ## VS Code tasks
 
