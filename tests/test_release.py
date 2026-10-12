@@ -14,7 +14,7 @@ class ReleaseChecks(unittest.TestCase):
         self.assertIn("resume.py", files)
         self.assertIn("AGENTS.md", files)
         self.assertIn("release-manifest.json", files)
-        for required in ("templates/AGENTS.md", "scripts/AGENTS.md", "tests/AGENTS.md", "docs/ats-and-flatness.md", "docs/agent-guidance.md", "docs/cover-letters.md", "scripts/cover_letter.py", "templates/cover-letter.json", "templates/cover-letter-brief.md", "prompts/build-cover-letter.md", "tests/test_cover_letter.py"):
+        for required in ("templates/AGENTS.md", "scripts/AGENTS.md", "tests/AGENTS.md", "CLAUDE.md", "templates/CLAUDE.md", "scripts/CLAUDE.md", "tests/CLAUDE.md","docs/ats-and-flatness.md", "docs/agent-guidance.md", "docs/cover-letters.md", "scripts/cover_letter.py", "templates/cover-letter.json", "templates/cover-letter-brief.md", "prompts/build-cover-letter.md", "tests/test_cover_letter.py"):
             self.assertIn(required, files)
         for name in files:
             self.assertNotIn("*", name)

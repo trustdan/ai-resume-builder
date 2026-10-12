@@ -84,7 +84,7 @@ class WorkspaceChecks(unittest.TestCase):
         new_resume.create("personal/My Resume", "hybrid")
         project = self.fixture / "personal/My Resume"
         self.assertTrue((project / "shared/preamble.tex").exists())
-        for name in ("AGENTS.md", "cover-letter.json", "cover-letter-brief.md"):
+        for name in ("AGENTS.md", "CLAUDE.md", "cover-letter.json","cover-letter-brief.md"):
             self.assertEqual((project / name).read_bytes(), (self.fixture / "templates" / name).read_bytes())
         self.assertEqual(json.loads((project / "project.json").read_text())["variant"], "hybrid")
         sentinel = project / "my-notes.md"

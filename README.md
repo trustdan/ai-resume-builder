@@ -69,7 +69,7 @@ This generates editable `cover-letter-content.tex`, builds `build/personal/my-re
 
 All four formats use one column and ordinary text flow, with job titles and dates kept together. Preserve the tested fonts and Unicode mappings, read both extracts in order, and visually inspect every page. [ATS and flatness checklist](docs/ats-and-flatness.md).
 
-The root and nested `AGENTS.md` files spell out factual, layout, and review requirements. Every new personal project gets its own instructions. Explicitly ask your assistant to read them if its editor does not load them automatically. [Instruction-file scopes](docs/agent-guidance.md).
+The root and nested `AGENTS.md` files spell out factual, layout, and review requirements. Every new personal project gets its own instructions. Each has a one-line `CLAUDE.md` that imports it for Claude Code. Explicitly ask your assistant to read them if its editor does not load them automatically. [Instruction-file scopes](docs/agent-guidance.md).
 
 ## Use an AI assistant, if you want
 
